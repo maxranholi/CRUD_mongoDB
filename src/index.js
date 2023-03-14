@@ -5,7 +5,7 @@ const prizeRouter = require("./routes/prizeRoutes");
 require("dotenv").config();
 require("../dataBase");
 
-const port = 3000;
+const port = 5633;
 
 app.use(express.urlencoded({ extended: true }));
 

@@ -1,23 +1,23 @@
-# POST http://localhost:3000/prize
-# Content-Type: application/json
+POST http://localhost:5633/prize
+Content-Type: application/json
 
-# {
-#     "nome": "DIA DE SORTE",
-#     "dezenas": [  
-#       "03",
-#       "07",
-#       "11",
-#       "18",
-#       "20",
-#       "23",
-#       "29"
-#    ],
-#     "numero_concurso": 171,
-#     "data_concurso": "2019-07-04T00:00:00-03:00"
-# }
+{
+    "nome": "DIA DE SORTE",
+    "dezenas": [  
+      "03",
+      "07",
+      "11",
+      "18",
+      "20",
+      "23",
+      "29"
+   ],
+    "numero_concurso": 171,
+    "data_concurso": "2019-07-04T00:00:00-03:00"
+}
 
 
-GET http://localhost:3000/prize
+GET http://localhost:5633/prize
 Content-Type: application/json
 
 

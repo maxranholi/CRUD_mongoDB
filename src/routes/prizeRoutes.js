@@ -1,8 +1,11 @@
 const express = require("express");
 const router = express.Router();
-const prizeController = require("../controller/prizeControler");
+const personControler = require("../controller/personControler");
 
-router.post("/", prizeController.create);
-router.get("/", prizeController.findAll)
+router.post("/", personControler.create);
+router.get("/", personControler.findAll)
+router.get("/:id", personControler.findUser)
+router.patch("/:id", personControler.updatUser)
+router.delete("/:id", personControler.deleteUser)
 
 module.exports = router;

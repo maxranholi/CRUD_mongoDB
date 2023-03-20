@@ -1,10 +1,10 @@
 const mongoose = require("mongoose");
 
-const Sorteio = mongoose.model("megasena", {
+const Person = mongoose.model("person", {
   nome: String,
-  dezenas: [Number],
-  numero_concurso: Number,
-  data_concurso: String,
+  idade: Number,
+  cor_favorita: String,
+  numeros_da_sorte: [Number],
 });
 
-module.exports = Sorteio;
+module.exports = Person;

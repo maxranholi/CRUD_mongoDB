@@ -41,8 +41,8 @@
 
 
 
-DELETE http://localhost:3000/person/64120e54256acefc557f29af
-Content-Type: application/json
+# DELETE http://localhost:3000/person/64120e54256acefc557f29af
+# Content-Type: application/json
 
 
 
